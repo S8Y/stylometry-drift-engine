@@ -1,0 +1,10 @@
+name: stylometry-drift-engine
+version: 1.0.0
+description: >
+  Rewrites text to reduce identifiable stylistic patterns while preserving
+  meaning exactly. Uses deterministic local transformations — sentence length
+  variation, clause reordering, punctuation shifts, and synonym substitution.
+  Fully offline, no external AI calls.
+author: Hermes Plugin
+provides_tools:
+  - stylometry_drift
